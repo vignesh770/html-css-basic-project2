@@ -1,0 +1,170 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+#banner {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), #009688), url(img/banner.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+.logo {
+  width: 140px;
+  position: absolute;
+  top: 4%;
+  left: 10%;
+}
+.banner-text {
+  text-align: center;
+  color: #fff;
+  padding-top: 180px;
+}
+.banner-text h1 {
+  font-size: 130px;
+  font-family: "Kaushan Script", cursive;
+}
+.banner-text p {
+  font-size: 20px;
+  font-style: italic;
+}
+.banner-btn {
+  margin: 70px auto 0;
+}
+.banner-btn a {
+  width: 150px;
+  text-decoration: none;
+  display: inline-block;
+  margin: 0 10px;
+  padding: 12px 0;
+  color: #fff;
+  bottom: 0.5px solid #fff;
+}
+#sideNav {
+  width: 120px;
+  height: 100vh;
+  position: fixed;
+  right: 0;
+  top: 0;
+  background: #009688;
+  z-index: 2;
+}
+nav ul li {
+  list-style: none;
+  margin: 50px 20px;
+}
+nav ul li a {
+  text-decoration: none;
+  color: #fff;
+}
+#menuBtn {
+  width: 50px;
+  height: 50px;
+  background: #009688;
+  text-align: center;
+  position: fixed;
+  right: 15px;
+  top: 20px;
+  border-radius: 3px;
+  z-index: 3;
+  cursor: pointer;
+}
+#menuBtn img {
+  width: 20px;
+  margin-top: 16px;
+}
+@media screen and (max-width: 770px) {
+  .banner-text h1 {
+    font-size: block;
+    margin: 20px auto;
+  }
+}
+#features {
+  text-align: center;
+  width: 100%;
+  padding: 70px 0;
+}
+.title-text p {
+  margin: auto;
+  font-size: 20px;
+  color: #009688;
+  font-weight: bold;
+}
+#feature-box {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: left;
+  text-align: left;
+}
+.feature-img {
+  flex-basis: 50%;
+  margin: auto;
+}
+.feature-img img {
+  width: 30px;
+  height: 30px;
+  border-radius: 10px;
+}
+.feature-box {
+  padding-left: 40px;
+  text-align: left;
+  color: #009682;
+}
+.feature-text {
+  text-align: left;
+  padding: auto;
+  margin-bottom: 3%;
+  text-anchor: end;
+}
+.features-desc {
+  display: flex;
+  align-items: center;
+  margin-bottom: 40px;
+}
+.single-service {
+  flex-basis: 48%;
+  text-align: center;
+  border-radius: 7px;
+  margin-bottom: 20px;
+  color: #fff;
+}
+.title-text {
+  padding-top: 20px;
+  padding-left: 40px;
+}
+.single-box img {
+  width: 100%;
+  border-radius: 7px;
+  padding-left: 50%;
+}
+.service-box {
+  border-top: 3px solid #8d8d8d;
+  border-bottom: 3px solid #8d8c8d;
+}
+.card h5 {
+  margin: auto;
+  font-size: 20px;
+  color: #009688;
+  font-weight: bold;
+}
+.card img {
+  margin-top: 30px;
+  margin-bottom: 20px;
+  border: 2px solid;
+  background-color: rgb(206, 204, 203);
+}
+.container {
+  padding-left: 500px;
+}
+.footer img {
+  width: 10%;
+  height: 15%;
+  margin-left: 650px;
+  margin-top: 2%;
+}
+.footer p {
+  text-align: center;
+  transform: perspective(0, 0, 0.2);
+  padding-bottom: 80px;
+}
